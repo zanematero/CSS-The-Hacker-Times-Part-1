@@ -26,10 +26,13 @@ h1 {
 }
 
 nav{
+    position: sticky;
+    top: 0em;
     margin: 1em;
     border-top: 1px solid lightgrey;
     border-bottom: 1px solid lightgrey;
     text-align: center;
+    background-color: white;
 }
 
 li {
@@ -96,4 +99,11 @@ section > p {
 section {
     display: inline-block;
     width: 45%;
+}
+
+.footer {
+    padding: 1em;
+    text-align: center;
+    border-top: 1px solid lightgrey;
+    margin: 1em;
 }
